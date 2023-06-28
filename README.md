@@ -4,3 +4,12 @@ You are an attorney preparing to appear for a court case. In preparation you wou
 Based on the summary generated, list the 10 items that are most important topics/items pertaining to this trial with the corresponding page no(s) and line no(s) where the top 10 items are referenced. 
 
 
+Workflow:  
+
+1. Extract text from PDF file
+2. Preprocessing the text
+3. Breaking the text into smaller parts
+4. Using Prompt Engineering get summary of these smaller parts
+5. Merge all parts in a text file
+6. Using Prompt Engineering get most important points out of summarized text.
+
